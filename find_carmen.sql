@@ -98,10 +98,47 @@ WHERE countrycode = 'ITA';
 
 
 
--- Clue #5: Oh no, she pulled a switch – there are two cities with very similar names, but in totally different parts of the globe! She's headed to South America as we speak; go find a city whose name is like the one we were headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
+-- Clue #5: Carmen pulled a switch – she's headed to South America, to a city with a name like "Milan" but that ends differently.
+
+SELECT name, countrycode
+FROM city
+WHERE name ILIKE 'mil%' AND countrycode IN (
+  SELECT code FROM country WHERE continent = 'South America'
+);
+
+-- Answer:
+--  name    | countrycode
+--  --------+-------------
+--  Milagro | ECU
+
+SELECT name FROM country WHERE code = 'ECU';
+
+-- Answer:
+--  name
+--  ---------
+--  Ecuador
 
 
--- Clue #6: We're close! Our South American agent says she just got a taxi at the airport, and is headed towards the capital! Look up the country's capital, and get there pronto! Send us the name of where you're headed and we'll follow right behind you!
+
+
+
+-- Clue #6: Carmen is headed toward the capital of Ecuador – we need to intercept her there.
+
+SELECT capital FROM country WHERE code = 'ECU';
+
+-- Answer:
+--  capital
+--  --------
+--  594
+
+SELECT name FROM city WHERE id = 594;
+
+-- Answer:
+--  name
+--  --------
+--  Quito
+
+
 
 
 
@@ -118,5 +155,23 @@ WHERE countrycode = 'ITA';
 
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
+
+SELECT name, population, countrycode
+FROM city
+WHERE population = 91084;
+
+-- Answer:
+--  name         | population | countrycode
+--  ------------+------------+-------------
+--  Santa Monica | 91084     | USA
+
+SELECT name FROM country WHERE code = 'USA';
+
+-- Answer:
+--  name
+--  --------
+--  United States
+
+
 
 
