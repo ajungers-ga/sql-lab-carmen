@@ -53,10 +53,10 @@ View the next SQL labs in the series:
 
 ## Final Reflections
 
-This lab was a clever and engaging way to reinforce real SQL concepts through a narrative problem-solving format.  
+This lab was a fun story that reminded me of the movie 'Catch Me If You Can'. 
+It was an engaging way to reinforce the SQL concepts taught through the lessons from our Lead Instructor. 
 It helped me become more confident in using `JOIN`, `GROUP BY`, subqueries, and filtering techniques.  
 The challenge of connecting multiple clues across different datasets mirrored real-world data exploration tasks and improved my logical thinking with SQL.
-
 ---
 
 ## Tech Used
