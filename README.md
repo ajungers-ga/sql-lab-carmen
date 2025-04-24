@@ -11,6 +11,7 @@ View the next SQL labs in the series:
 - Lab 2 – Computers & Televisions: https://github.com/ajungers-ga/sql-lab-computers-televisions
 - Lab 3 – Realty: https://github.com/ajungers-ga/sql-lab-realty
 - Lab 4 – NFL: https://github.com/ajungers-ga/sql-lab-nfl
+- Lab 5 - Flights: https://github.com/ajungers-ga/sql-lab-flights
 
 ---
 
