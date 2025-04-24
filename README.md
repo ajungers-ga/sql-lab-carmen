@@ -36,18 +36,19 @@ View the next SQL labs in the series:
    Answer: Italian
 
 3. Another country where only Italian is spoken:  
-   Answer: Italy
+   Answer: Italy (after consulting with a colleague - it turns out I misread the clue and needed to find ANOTHER country besides ITALY where that language is spoken by the people.)
+   the CORRECT answer would actually be: --  SMR         | San Marino
 
-4. City (not Rome) she’s flying to:  
+5. City (not Rome) she’s flying to:  
    Answer: Milan
 
-5. A similar-named city in South America:  
+6. A similar-named city in South America:  
    Answer: Milagro, Ecuador
 
-6. Capital of Ecuador:  
+7. Capital of Ecuador:  
    Answer: Quito
 
-7. Final destination based on population clue:  
+8. Final destination based on population clue:  
    Answer: Santa Monica, United States
 
 ---
